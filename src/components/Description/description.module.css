@@ -1,0 +1,14 @@
+.descrWrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.descr:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.descr {
+    font-size: 20px;
+    color: white;
+}
